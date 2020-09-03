@@ -39,7 +39,6 @@ public class RecipesActivity extends AppCompatActivity {
                 final long id2 = id;
                 //Delete Alert
                 AlertDialog.Builder deletealert = new AlertDialog.Builder(RecipesActivity.this);
-
                 deletealert.setTitle("Delete Confirmation");
                 deletealert.setMessage("Are you sure you want to delete recipe");
                 deletealert.setCancelable(true);
